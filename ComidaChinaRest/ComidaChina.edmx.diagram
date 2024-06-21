@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d275fe6214b45aba1901ffb05261b6f" Name="Diagram1">
+        <EntityTypeShape EntityType="ComidaChinaModel.Categorias" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaChinaModel.Cliente" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaChinaModel.DetallePedido" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaChinaModel.Pedido" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaChinaModel.Productos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ComidaChinaModel.FK__Productos__id_ca__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaChinaModel.FK__Pedido__id_clien__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaChinaModel.FK__DetallePe__id_pe__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaChinaModel.FK__DetallePe__id_pr__5629CD9C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
